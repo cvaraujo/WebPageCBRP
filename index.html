@@ -1,0 +1,437 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Maximum Service in Multicast Routing Problem with Quality of Service constraints - Benchmark Instances</title>
+
+  <style type="text/css">
+    <!-- @import url(./style/ploneStyles7239.css); 
+    -->
+  </style>
+
+  <style type="text/css" media="all">
+    <!-- @import url(./style/ploneStyles2082.css); 
+    -->
+  </style>
+
+  <style type="text/css">
+    table.padded-table td {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    .ffp-example div {
+      display: inline-block;
+    }
+  </style>
+
+
+  <!-- Disable IE6 image toolbar -->
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta name="description" content="This page includes instances, experimental results
+    and solutions regarding the problems of Area-Optimal Simple Polygonizations.">
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5484247-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+
+<body class="section-welcome-to-the-institute-of-computing" dir="ltr">
+
+  <div id="visual-portal-wrapper">
+    <div id="portal-top">
+      <div id="portal-header">
+        <a class="hiddenStructure" accesskey="2" href="http://www.ic.unicamp.br/">IC-UNICAMP</a>
+        <div id="portal-searchbox">
+
+          <div id="logo_unicamp">
+            <a href="http://www.unicamp.br/"><img src="figs/logo_unicamp.png" alt="" title="Unicamp" height="56"
+                width="56"></a>
+          </div>
+
+        </div>
+
+        <h1 id="portal-logo">
+          <a href="http://www.ic.unicamp.br/" accesskey="1">Instituto de Computação - UNICAMP</a>
+        </h1>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="visualClear">
+    <!-- -->
+  </div>
+
+  <div id="content" class="">
+    <div class="documentContent" id="region-content">
+      <a name="documentContent"></a>
+
+      <h1> Routing on City Blocks: a Case Study for Dengue Control - Benchmark Instances, by M. D. Andrade, C. V. D.
+        Araújo,
+        R. K. Arakaki and F. L. Usberti </h1>
+
+      <div class="plain">
+        <p></p>
+        <h3>Citing this page:</h3>
+
+        <ul>
+          Use the BibTeX entry:<br><br>
+          <font size="+1">
+            <quote><tt>
+                @Misc{cbrp-instances-page,<br>
+                &nbsp;author = {Matheus D. Andrade and Carlos V. D. Ara\´ujo and Rafael K. Arakaki and F\´abio L.
+                Usberti},<br>
+                &nbsp;title = {Routing on City Blocks: a Case Study for Dengue Control},<br>
+                &nbsp;year = {2024},<br>
+                &nbsp;note = {{\sl www.ic.unicamp.br/\textasciitilde fusberti/problems/cbrp}}<br>
+                }<br></tt>
+            </quote>
+          </font>
+        </ul>
+
+
+        <p></p>
+
+        <h3>Problem description</h3>
+
+        <p>
+          Routing problems in operational research are typically classified based on the location of
+          the service. When the service is performed at nodes, it falls under the vehicle routing problem
+          (VRP) [Braekers et al., 2016]; when performed on edges (or arcs), it is categorized as an
+          arc routing problem (ARP) [Corberán et al., 2021]. The routing problem for Dengue control
+          incorporates elements from both VRP and ARP. On one hand, the service performed by spraying
+          vehicles occurs on the arcs surrounding each block, similar to an ARP. On the other hand, each
+          city block can be conceptualized as a super node, aligning it with VRP characteristics. Given
+          these unique features, we introduce a new problem, the City Block Routing Problem (CBRP).
+        </p>
+
+        <p></p>
+
+        <p>
+          The CBRP focuses on optimizing the service of city blocks within an urban street network.
+          Vehicles are assigned to service these blocks, but the number of blocks that can be serviced
+          is limited by available resources. A block is considered serviced when a vehicle completely
+          encircles it without taking any detours, and each serviced block yields a specific benefit. The
+          primary objective of the CBRP is to identify the optimal subset of blocks that maximizes overall
+          benefits while determining the best route to service the selected blocks within the given resource
+          constraints.
+        </p>
+
+        <p>
+          The insecticide application is more effective when performed at dawn, and right before sunset, periods in
+          which occurs a thermal inversion keeping the insecticide in lower altitudes, where the mosquitoes are usually
+          found [Brazilian Department of Health, 2009]. Once the spraying vehicle starts servicing a given street block,
+          the vehicle must subsequently cover all edges in a clockwise direction before moving to another block. A
+          clockwise traversal of a street block guarantees that the fog of insecticide creates a barrier that prevents
+          mosquitoes from escaping.
+        </p>
+
+        <p></p>
+
+        <div style="display:flex">
+          <div style="flex:0.3;padding-left:170px;padding-right:300px;">
+            <img src="./figs/graph-sol2.svg" width="630" height="470" align="middle" />
+            <!-- <p></p> -->
+            <!-- <p align="middle"><b>Initial Graph</b></p> -->
+          </div>
+          <!-- <div style="flex:0.4;padding-left:1px;">
+            <img src="./figs/solution.svg" width="330" height="170" align="middle" />
+            <p></p>
+            <p align="middle"><b>Path to terminal nodes</b></p>
+          </div> -->
+        </div>
+
+        <hr>
+
+        <h3>Instance Generator</h3>
+
+        We adopted the maps available in the project <a href="https://www.openstreetmap.org"> Open Street Maps </a>
+        (OSM) [Haklay and Weber], which is a collaborative mapping project to create a free and
+        editable map of the word.
+
+        We have collected actual Dengue notified cases from 2015 to 2021 from the city health
+        departments of Alto Santo and Limoeiro do Norte. The data was retrieved from the databases
+        of the Information System for Notifiable Diseases (SINAN) [Laguardia et al. (2004)]. From Alto
+        Santo, 582 cases were reported from 2016 to 2021, while Limoeiro do Norte reported 3829 Dengue and 414
+        Chikungunya cases from 2015 to 2021. The data from both cities give 4825 cases reported in the SINAN. The
+        benchmark of instances used in the computation experiments comprises 39 scenarios based on notified cases from
+        the cities of Alto Santo and Limoeiro do Norte. The address of each notification was applied to the OSMnx
+        library [Boeing, 2017] to obtain their latitude and longitude, mapping them to the street blocks.
+
+        <p></p>
+
+        Besides instances based on real notifications, we also generate sets of instances
+        based on real dengue outbreak locations in the city of Campinas, São Paulo (Campinas City Hall,
+        2021), however by using synthetic notification numbers. The synthetic instances were generated
+        varying three attributes: number of neighborhoods; block selection strategy; and distribution of
+        notifications among blocks.
+
+        or each instance set 80 instances were generated, in a progression of 5 blocks, that is, 5 instances of 5 street
+        blocks, 5 instances of 10 blocks, and so on, up to 5 instances of 80 blocks. In the end, we generated eight sets
+        of instances, totaling 640 instances.
+
+        <p></p>
+
+        <table>
+          <tr>
+            <td width='50px'></td>
+            <td width='200px'><b>Washington Maps</b></td>
+            <td width='200px'><a href="maps/washington-maps.tar.gz">washington-maps.tar.gz</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td width='50px'></td>
+            <td width='200px'><b>Simulation Files</b></td>
+            <td width='300px'><a href="simulation-files/simulation-files.tar.gz">simulation-files.tar.gz</a>
+            </td>
+          </tr>
+        </table>
+
+        <p></p>
+
+        <hr>
+
+        <h3> Instances </h3>
+
+        The instances are organized in compressed files, the structure of
+        folders and files is presented bellow.
+
+        <p></p>
+
+        <ul>
+          <li>
+            Folder: Washington-\(S\)
+            <ul>
+              <li>
+                Folder: \(V\)
+                <ul>
+                  <li> washington-\(S\)-\(V\)-\(D\).txt </li>
+                  <li> param-washington-\(S\)-\(V\)-\(D\).txt </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <p></p>
+
+        Where \(S\) is the excerpt size, \(V\) is the number os nodes in the
+        graph and \(D\) the number of terminals.
+
+        <p></p>
+
+        Each instance consists of a graph and a parameter file in the following
+        formats: <p></p>
+
+        <h5>File Format: Graph instance</h5>
+
+        The informations are inside of <b>SECTIONS</b>:
+        <ul>
+          <li> SECTION Comment: contain information about the instance </li>
+          <li>
+            SECTION Graph: containt the number of Nodes \(V\), Edges \(E\), and \(E\) lines from each edge in the
+            format
+            <ul>
+              <li> &lt;E \(u\) \(v\) &lambda; &xi; &omega; &mu;&gt; </li>
+              <li> These values are, respectively, the identifier of edge, the source and target nodes, delay, jitter,
+                bandwidth, and link duration estimate </li>
+            </ul>
+          </li>
+          <li> SECTION Terminals: contais the Root and Terminal nodes </li>
+        </ul>
+
+        <p></p>
+
+        <h5>File Format: Parameter instance</h5>
+
+        <p></p>
+
+        This file contains four lines containing, respectively, the delay limit,
+        jitter limit, delay variation limit, and bandwidth limit.
+
+        <p></p>
+
+        <h5>File Format: Instance preprocessing</h5>
+
+        The compressed file contains the results of all the preprocessings
+        presented in Ribeiro et. al. [2]* for all our set of instances. Each
+        line contains the identifier of the procedure and the node/edge that
+        can be removed from the graph.
+
+        <p></p>
+
+
+        <!-- &nbsp;&nbsp;&nbsp;&nbsp; &lt;\(\ell\;x\;y\)&gt;</br> -->
+
+        <p></p>
+
+        <table>
+          <tr>
+            <td width='50px'></td>
+            <td width='200px'><b>Washington-MS-MRP-QoS</b></td>
+            <td width='200px'><a href="instances/instances-MS-MRP-QoS.tar.gz">instances-MS-MRP-QoS.tar.gz</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td width='50px'></td>
+            <td width='300px'><b>Preprocessing-Washington-MS-MRP-QoS</b></td>
+            <td width='300px'><a href="instances/preprocessing-MS-MRP-QoS.tar.gz">preprocessing-MS-MRP-QoS.tar.gz</a>
+            </td>
+          </tr>
+        </table>
+
+
+        <p></p>
+
+        <hr>
+
+        <h3>Results</h3>
+
+        The results were obtained with an implementation in C++ and compiled
+        with GCC version 7.5.0. We solved the ILP models with Gurobi version
+        9.1. To solve shortest paths and shortest path with resource
+        constraints, we employed the Boost C++ Library, version 1.75. Below you
+        can find the machine specification for the set of instances.
+
+        <p></p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Instances</th>
+              <th>CPU</th>
+              <th>#cores</th>
+              <th>Clock</th>
+              <th>Cache</th>
+              <th>RAM</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b> Washington-MS-MRP-QoS </b></td>
+              <td> Intel(R) Xeon(R) E5-2630 v4 </td>
+              <td> 10 </td>
+              <td>2.2 GHz</td>
+              <td>25 MB</td>
+              <td>64 GB</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p></p>
+
+        The results are in csv files compressed by algorithm and configuration,
+        each one corresponding to the set of instances. Each row of each file
+        corresponds do the result of one instance. The formulation results
+        contains columns indicating the name of the instance, number of
+        terminals, number of edges, lower/upper bounds, gaps, number of nodes of
+        the Gurobi tree, and the computation time used to find such bounds. The
+        Lagrangain relaxations contains columns indicating the name of the
+        instance,number of terminals, edges, first, best, and iteration of best
+        lower/upper bounds, gaps, and the computation time used.
+
+        <p></p>
+
+        <table>
+          <tr>
+            <td width='50px'></td>
+            <td width='200px'><b> DMFM-MRP and AB-MRP </b></td>
+            <td width='200px'><a href="results/formulations-MS-MRP-QoS.tar.gz">formulations-MS-MRP-QoS.tar.gz</a></td>
+          </tr>
+
+          <tr>
+            <td width='50px'></td>
+            <td width='200px'><b>LR-SP</b></td>
+            <td width='200px'><a href="results/LR-SP-MS-MRP-QoS.tar.gz">LR-SP-MS-MRP-QoS.tar.gz</a></td>
+          </tr>
+
+          <tr>
+            <td width='50px'></td>
+            <td width='200px'><b>LR-SPRC-delay</b></td>
+            <td width='300px'><a href="results/LR-SPRC-delay-MS-MRP-QoS.tar.gz">LR-SPRC-delay-MS-MRP-QoS.tar.gz</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td width='50px'></td>
+            <td width='200px'><b>LR-SPRC-jitter</b></td>
+            <td width='300px'><a href="results/LR-SPRC-jitter-MS-MRP-QoS.tar.gz">LR-SPRC-jitter-MS-MRP-QoS.tar.gz</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td width='50px'></td>
+            <td width='200px'><b>LR-SPRC-delay-jitter</b></td>
+            <td width='300px'><a
+                href="results/LR-SPRC-delay-jitter-MS-MRP-QoS.tar.gz">LR-SPRC-delay-jitter-MS-MRP-QoS.tar.gz</a></td>
+          </tr>
+
+        </table>
+
+        <p></p>
+
+        <hr>
+
+        <h3>Acknowledgments</h3>
+
+        *We wish to thank Tiago de Azevedo Santos for define the basis for
+        creating these simulation-based instances for the MRP-QoS.
+
+        <br></br>
+
+        This work was supported in part by grants from:
+        <i>Brazilian National Council for Scientific and Technological Development</i> (CNPq), Brazil, #131111/2019-1;
+        <hr>
+
+        <h3>References</h3>
+        <ul>
+          <li>
+            [1] Haklay, M., Weber, P., 2008. OpenStreetMap: User-generated street maps. IEEE Pervasive Computing 7, 4,
+            12–18.
+          </li>
+          <li>
+            [2] Ribeiro, C.C., Santos, T. A., de Souza, C.C., 2019. Multicast routing under quality of service
+            constraints for vehicular ad hoc
+            networks: mathematical formulation and a relax-and-fix heuristic. International Transactions in
+            Operational
+            Research 26,
+            4, 1339–1364.
+          </li>
+        </ul>
+
+        <p></p>
+
+        <hr>
+
+        <h3>Address</h3>
+
+        Carlos V. D. Araújo, Cid C. de Souza and Fábio L. Usberti <br> Universidade Estadual de Campinas<br> Instituto
+        de Computação<br> Avenida Albert Einstein, 1251<br> 13083-852 Campinas, SP, Brasil<br> Phone: +55 19
+        3521.5877<br> Fax: +55 19 3521.5847<br> e-mail: <img src="figs/cid-email.gif"><br>
+
+        <p></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+
+/* - ploneCustom.css - */
+@media all {
+/* */
+/* */
+.hidden {
+display: none;
+}
+.thesis_title {
+font-weight: bold;
+border-bottom: 1px solid black;
+}
+.thesis_meta {
+font-style: italic;
+}
+.inner_visible {
+background: white;
+border: 1px solid #8cacbb;
+padding: 1em;
+visibility: visible;
+}
+#year_summary {
+float:left;
+display: block;
+clear: left;
+}
+#year_summary ul {
+margin: 1em 0 2em 0;
+border: 1px solid #8cacbb;
+text-decoration: none;
+list-style-image: none;
+list-style-type: none;
+padding: 0.5em;
+background: #dee7ec;
+}
+#year_summary ul li {
+margin: 0;
+padding: 0;
+display: block;
+}
+.paper_details {
+display: inline-block;
+margin: 0;
+padding: 0;
+border: none  !important;
+}
+.paper_details > li a {
+padding: 1em !important;
+width: auto;
+float: left;
+border: none !important;
+}
+.state-queued {
+color: #00c900 !important;
+}
+.state-blocked {
+color: #ff0000 !important;
+}
+#logo_unicamp {
+display: inline;
+position: relative;
+top: -2.9em;
+left: 0.5em;
+}
+#portal-searchbox {
+float: right;
+clear: right;
+background-color: transparent;
+margin: 3.5em 0 0 0;
+padding: 0 1.5em 0 0;
+text-align: right;
+text-transform: lowercase;
+white-space: nowrap;
+z-index: 2;
+}
+.contenttype-professor {
+margin: 1em 0 0 4em;
+}
+#portal-logo {
+margin: 0.50em 0em 0 0.3em;
+}
+#portal-personaltools {
+background: #eee;
+border: none;
+}
+.navTreeCurrentItem {
+color: #f60 !important;
+}
+dd.portletItem {
+background: #eee;
+}
+body {
+/* */
+}
+.txt11b {
+font-weight: bold;
+font-size: 9pt;
+}
+.colophon-sep {
+border: 1px dotted #ccc;
+}
+#portal-header {
+background: url(../figs/top_bg_img.gif);
+border: 0;
+padding-bottom: 10px;
+}
+.even {
+background-color: #eee;
+}
+#portlet-news {
+font-size:10px;
+background: #eee;
+}
+#portlet-news a:hover {
+text-decoration: underline;
+}
+.portlet {
+border: 0;
+color: Black
+}
+.portletHeader {
+background-color: #030769 !important;
+border: 1px solid #030769;
+padding: 0em 1em;
+font-weight: bold;
+color: white;
+line-height: 1.6em;
+font-size: 12px;
+}
+.portletFooter{
+background-color: #eee !important;
+}
+.portletHeader a {
+color: #fff;
+}
+.portletItem {
+margin: 0;
+padding: 1em;
+font-size: 10px;
+/* */
+}
+.portletItemSingle {
+margin: 0;
+background: #eee;
+padding: 1em;
+border: 1px solid #aaa;
+border-top: none;
+}
+dd.portletItemLast {
+margin: 0;
+padding: 0.25em 1em;
+border: 1px solid #8cacbb;
+border-top-style: none;
+}
+.navTreeItem a {
+border: 1px solid #eee !important;
+font-size: 10px;
+display: block;
+text-decoration: none;
+padding-top: 0.2em;
+padding-bottom: 0.25em;
+}
+.navTreeItem a:hover {
+background-color: transparent !important;
+color: #f60 !important;
+}
+.navTreeCurrentItem {
+background-color: #eee;
+color: #f60;
+font-weight: bold;
+border: 1px solid #eee !important;
+}
+#portal-breadcrumbs {
+border: none !important;
+padding-left: 2em;
+padding-right: 1em;
+line-height: 1.6em;
+text-align:left !important;
+}
+#portal-breadcrumbs a {
+text-decoration: underline;
+}
+/* */
+
+}
+
